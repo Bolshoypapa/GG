@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>928</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #1c1c1c;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="0">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="3">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="4" column="1">
+     <spacer name="verticalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="3" column="1">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="text">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Для игры в домино вам понадобятся 14 прямоугольных фишек, которые разделены полосой на две половины. В каждой из них расположено&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;определенное количество точек от одной до шести или пустое поле. Фишки для игры в Домино еще называют кости, костяшки, камни, карты.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Количество игроков – 2, бот и пользователь.Участники получают по семь фишек. Право ходить первым принадлежит пользователю.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;В дальнейшем участники осуществляют ходы в порядке очереди. К первой фишке партнеры добавляют свои фишки таким образом, чтобы количество точек&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;на двух половинах разных фишек было одинаковым. Если игроку нечем ходить, он пропускает ход, нажав на кнопку «Pass». Цель игры&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;- в каждой партии первым избавляться от фишек. Тот, кто раньше соперников выложил свои фишки на игровое поле, объявляется победителем. &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Игра заканчивается тогда, когда один из игроков остаётся без игровых фишек или не будет подходящих фишек для хода. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="1">
+     <layout class="QGridLayout" name="gridLayout_4">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="btn_back">
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color: #82898F;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 24px;
+}
+QPushButton:hover{
+color: white;
+background-color:#2D572C;
+}
+
+QPushButton:pressed{
+color:#2f6a31;
+}</string>
+        </property>
+        <property name="text">
+         <string>Назад</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="5" column="0">
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="5" column="3">
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>928</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
